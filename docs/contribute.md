@@ -64,7 +64,7 @@ Contributors are responsible for pushing their changes to testnet and mainnet, a
 
 The Release Manager is responsible for the technical soundness of each release. This includes:
 * Reviewing each PR. Will it break something? Were necessary integration and regression tests done? What are dependencies? Are we following the correct order/timeline for testnet/mainnet?
-* Ensuring communication has been shared with the relevant channels (Ops, SRE, support, community & documentation). Both with internal and external stakeholders (partners, community). This doesn't have to be done directly by the release manager, however the release manager is responsible for ensuring it's done.
+* Ensuring communication has been shared with the relevant channels (Ops, SRE, support, community & documentation). Both with internal and external stakeholders (partners, community). This doesn't have to be done directly by the release manager, however, the release manager is responsible for ensuring it's done.
 * Ensuring people are available to react in case the release has an issue (engineer, SRE).
 * Controlling that proper monitoring has been done by engineers when releasing.
 * Make sure the release notes are accurate and up to date.
@@ -87,7 +87,7 @@ Configuration changes that are part of ops are not considered releases. This inc
 > External contributor's PRs will be added to the standard deployment flow and supported by a Consensys engineer.
 
 * Consensys engineers share their PRs with the release manager weekly and the details are added to the Release Notes.
-* The release manager greenlights the release, proposes a day and time for deploying the release to the engineer. The release manager ensures communication has been shared with internal stakeholders (SRE) as well as external stakeholders when relevant (external contributor/community/partners).
+* The release manager greenlights the release and proposes a day and time for deploying the release to the engineer. The release manager ensures communication has been shared with internal stakeholders (SRE) as well as external stakeholders when relevant (external contributor/community/partners).
 * The deployment on testnet is performed with the help of DevOps and SRE teams.
 * The deployment on mainnet is performed following the exact same process as testnet, after sufficient time to be confident the release can be promoted to mainnet.
 
